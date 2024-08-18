@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
     
-    <div className='h-screen md:h-[40rem] w-full flex items-center justify-center'>
+    <div className='h-screen w-full flex items-center justify-center'>
           <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"

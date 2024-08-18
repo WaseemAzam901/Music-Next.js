@@ -33,9 +33,9 @@ const FeatureCourses = () => {
               <div key={course.id} className="flex justify-center">
                 <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 h-full max-w-sm text-white">
                   <div className="flex flex-col p-4 sm:p-6 items-center">
-                    <p> {course.title}</p>
-                    <p> {course.description}</p>
-                    <Link href={'/courses/${course.slug}'}>Learn More</Link>
+                    <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200"> {course.title}</p>
+                    <p className="text-sm text-neutral-600 dark:text-neutral-400"> {course.description}</p>
+                    <Link href={'/courses/${course.slug}'} className=" mt-6 px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200">Learn More</Link>
                   </div>
                 </BackgroundGradient>
               </div>
