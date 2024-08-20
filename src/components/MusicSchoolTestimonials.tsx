@@ -37,7 +37,7 @@ const testimonials = [
 
 const MusicSchoolTestimonials = () => {
   return (
-    <div className="h-[40rem] w-full flex flex-col items-center justify-center overflow-hidden dark:bg-black">
+    <div className="h-[40rem] w-full flex flex-col items-center justify-center dark:bg-grid-white/[0.2] bg-grid-black/[0.2]  overflow-hidden dark:bg-black">
       <h2 className="text-white text-xl  sm:text-3xl font-bold mb-8 z-10">
         Hear Our Harmony: Voices Of Voices
       </h2>
