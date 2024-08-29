@@ -25,7 +25,7 @@ const Navbar = ({ className }: { className?: string }) => {
             <HoveredLink href="/courses">Music Production</HoveredLink>
           </div>
         </MenuItem>
-        <Link href={"/contact"}>
+        <Link href={"/contactus"}>
         <MenuItem setActive={setActive} active={active} item="Contact Us">
         </MenuItem>
         </Link>
